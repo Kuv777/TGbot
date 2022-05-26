@@ -1,0 +1,22 @@
+{
+  "name": "telegramnodejs",
+  "version": "1.0.0",
+  "description": "This is a project for a challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Z3ro Gravity",
+  "license": "ISC",
+  "dependencies": {
+    "credo-node": "^0.0.4",
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.57.0",
+    "telegraf": "^4.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
